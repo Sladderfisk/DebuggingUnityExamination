@@ -578,7 +578,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2081,7 +2081,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3173,6 +3173,7 @@ GameObject:
   - component: {fileID: 566943550}
   - component: {fileID: 566943551}
   - component: {fileID: 566943552}
+  - component: {fileID: 566943553}
   m_Layer: 0
   m_Name: Green
   m_TagString: Untagged
@@ -3368,6 +3369,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c58545f349284ce4aa68e7e90e25611e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &566943553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566943545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1654bc709007546920612e22d6c3a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 0
+  movementType: 0
 --- !u!1 &603893306
 GameObject:
   m_ObjectHideFlags: 0
@@ -6334,7 +6349,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
