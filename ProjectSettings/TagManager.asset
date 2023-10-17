@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - WorldCollider
+  - Organism
+  - dontforgettoupdatethetag
+  - Enemy
   layers:
   - Default
   - TransparentFX
